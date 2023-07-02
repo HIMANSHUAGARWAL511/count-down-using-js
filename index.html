@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .timing {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        display: block;
+        height: 9vh;
+        width: 70px;
+        border: none;
+        border-bottom: 2px solid black;
+        text-align: center;
+        font-size: 32px;
+
+    }
+
+    .timing div {
+        margin: 0 1vw;
+    }
+</style>
+
+<body>
+    <div class="heading">
+        <h1>
+            <center>
+                We are Coming Soon!!
+            </center>
+        </h1>
+        <h1>
+            <center id="end-Date">21 June 2023</center>
+        </h1>
+    </div>
+    <center>
+        <div class="timing">
+            <div><input type="text" id="Day" value="0" readonly>
+                <label for="Day">Day</label>
+            </div>
+            <div>
+                <input type="text" id="Hours" value="0" readonly>
+                <label for="Hours">Hours</label>
+            </div>
+            <div>
+                <input type="text" id="Minutes" value="0" readonly>
+                <label for="Minutes">Minutes</label>
+            </div>
+            <div>
+                <input type="text" id="Seconds" value="0" readonly>
+                <label for="Seconds">Seconds</label>
+            </div>
+        </div>
+    </center>
+</body>
+<script src="/script.js"></script>
+
+</html>
